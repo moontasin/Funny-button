@@ -1,3 +1,9 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 html,
 body {
   background-color: #ffc13d;
@@ -14,28 +20,8 @@ body {
   box-shadow: 0 1em 4em rgba(71, 50, 4, 0.3);
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-}
-
-label {
-  text-align: left;
-  margin-bottom: 6px;
-}
-
 h2 {
   margin-bottom: 20px;
-}
-
-input {
-  padding: 15px;
-  width: 400px;
-  margin-bottom: 30px;
-  border: 0px solid #878787;
-  border-radius: 5px;
-  background-color: #e2e1e185;
-  font-weight: 300;
 }
 
 button {
